@@ -1,1 +1,1 @@
-# A Pyhton special characters translator 
+# A Python special characters translator 
