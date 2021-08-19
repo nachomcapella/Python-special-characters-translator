@@ -1,6 +1,6 @@
 # A Python special characters translator :snake::u6e80::ok:
 ## Description
-This project introduces a simple character translator for Python. Since some libraries like Pandas (or other software) does not like some special characters (e.g. á, ñ, þ, ®) it will allow you to replace these characters in your file and, after finishing working with it, undo the traduction.
+This project introduces a simple character translator for Python. Since some libraries do not like some special characters (e.g. á, ñ, þ, ®) it will allow you to replace these characters in your file and, after finishing working with it, undo the traduction.
 
 ## Files
 ### translate_special_characters_to_html.ipynb
