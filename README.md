@@ -32,7 +32,7 @@ import python_character_translator
 translate_to_html('path/to/original.file', 'path/to/new_file.1')
 
 # Translate from html characters to special ones
-translate_to_html('path/to/new_file.1', 'path/to/new_file.2')
+translate_to_special('path/to/new_file.1', 'path/to/new_file.2')
 ```
 
 
