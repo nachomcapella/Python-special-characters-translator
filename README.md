@@ -24,6 +24,16 @@ char_to_replace = {'&Aacute;' : 'Á',
 It contains some example files with special characters and html codes.
 
 ## Usage
-The replacement process is easy. The user just needs to specify the paths of the original file and the new file (the one with the character replacements) and call one of the 2 functions. The original file is then read, the characters replaced and the resulting text is written into a new file. An example code of how to use the functions is provided at the bottom of the Jupyter Notebook.
+The replacement process is easy. The user just needs to specify the paths of the original file and the new file (the one with the character replacements) and call one of the 2 functions. The original file is then read, the characters replaced and the resulting text is written into a new file. An example code of how to use the functions is provided below.
+```
+import python_character_translator
+
+# Translate from special charecters to html
+translate_to_html('path/to/original.file', 'path/to/new_file.1')
+
+# Translate from html characters to special ones
+translate_to_html('path/to/new_file.1', 'path/to/new_file.2')
+```
+
 
 ## FEEL FREE TO MODIFY THE TRANSLATOR FUNCTIONS ACCORDING TO YOUR NEEDS!
